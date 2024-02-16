@@ -1,6 +1,5 @@
 {
     "python.envFile": "${workspaceFolder}/.env",
-
     // testing
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
@@ -8,12 +7,10 @@
         "-s",
         "tests"
     ],
-
     // type checking
     // "python.analysis.typeCheckingMode": "basic",
     "mypy.dmypyExecutable": "dmypy",
     "mypy.enabled": true,
-
     // sort and format
     "isort.check": true,
     "isort.args": [
@@ -30,16 +27,14 @@
         }
     },
     "black-formatter.args": [
-        "--line-length=120",
+        "--line-length=100",
         "--skip-string-normalization"
     ],
-
     // linting
     "flake8.args": [
         "--max-line-length=120",
         "--ignore=W503,E203,Z712,E741",
     ],
-
     // Code Spell Checker
     "cSpell.enabled": false,
     "cSpell.language": "en",
@@ -64,7 +59,6 @@
         "hte",
         "fuck"
     ],
-    "cSpell.words": [
-    ],
+    "cSpell.words": [],
     "git.ignoreLimitWarning": true,
 }
